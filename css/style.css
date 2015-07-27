@@ -30,8 +30,8 @@
   font-style: normal; }
 @font-face {
   font-family: 'cipherIconFont';
-  src: url("../fonts/icomoon.eot?jzi8jn");
-  src: url("../fonts/icomoon.eot?#iefixjzi8jn") format("embedded-opentype"), url("../fonts/icomoon.ttf?jzi8jn") format("truetype"), url("../fonts/icomoon.woff?jzi8jn") format("woff"), url("../fonts/icomoon.svg?jzi8jn#icomoon") format("svg");
+  src: url("../fonts/icomoon.eot?p7vee9");
+  src: url("../fonts/icomoon.eot?#iefixp7vee9") format("embedded-opentype"), url("../fonts/icomoon.ttf?p7vee9") format("truetype"), url("../fonts/icomoon.woff?p7vee9") format("woff"), url("../fonts/icomoon.svg?p7vee9#icomoon") format("svg");
   font-weight: normal;
   font-style: normal; }
 [class^="icon-"], [class*=" icon-"] {
@@ -46,8 +46,11 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-.icon-cipherLogoBlack:before {
+.icon-campfireB:before {
   content: "\e600"; }
+
+.icon-cipherLogoBlack:before {
+  content: "\e601"; }
 
 /*  -----------------------------------------------------   /*
 	GENERAL
@@ -77,7 +80,7 @@ a:hover {
 
 h1, h2 {
   color: inherit;
-  font-family: "gothamRdLight", sans-serif;
+  font-family: "dkcrayon", sans-serif;
   font-weight: bold;
   line-height: 40px;
   margin: 5px 0 20px;
@@ -215,18 +218,20 @@ input:focus:invalid:focus, textarea:focus:invalid:focus, select:focus:invalid:fo
 .top-bar .logo {
   position: relative;
   top: 60px; }
+  .top-bar .logo h3 {
+    display: none; }
 
 .top-bar .logo {
   display: inline-block;
   padding: 10px 0;
-  -webkit-transition: all 0.001s ease-in-out 0s;
-  -moz-transition: all 0.001s ease-in-out 0s;
-  -o-transition: all 0.001s ease-in-out 0s;
-  transition: all 0.001s ease-in-out 0s; }
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s; }
 
 .top-bar .logo span {
   color: #FFFFFF;
-  font-size: 26px;
+  font-size: 36px;
   font-weight: 700;
   line-height: 20px;
   padding: 0px; }
@@ -279,10 +284,7 @@ input:focus:invalid:focus, textarea:focus:invalid:focus, select:focus:invalid:fo
   box-shadow: 0 3px 0 rgba(30, 38, 44, 0.2);
   height: 70px; }
 
-.top-bar.alt .logo {
-  top: 5px; }
-
-.top-bar.alt nav {
+.top-bar.alt nav, .top-bar.alt .logo {
   top: 15px; }
 
 .top-bar.alt .navbar .nav > li > a {
@@ -291,6 +293,11 @@ input:focus:invalid:focus, textarea:focus:invalid:focus, select:focus:invalid:fo
 
 .top-bar.alt .navbar .nav > li > a:hover {
   color: #31bda5; }
+
+.top-bar.alt .logo span {
+  color: #f9bb3c; }
+  .top-bar.alt .logo span:hover {
+    color: #df4e5e; }
 
 .top-bar.alt .navbar .bttn-navbar {
   margin: 20px 0 0 !important; }
@@ -315,7 +322,20 @@ nav select {
   margin: 0 auto;
   padding: 0; }
 
-#about, #register, #speakers, #schedule, #workshops, #venue, #sponsors, #news, #twitter-feed, #contact, #newsletter {
+.bg_text {
+  background-color: #DF4E5E;
+  padding: 25px;
+  width: 50%;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0.2s;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26); }
+  .bg_text .icon-cipherLogoBlack {
+    color: white; }
+
+#about, #regi ster, #speakers, #schedule, #workshops, #venue, #sponsors, #news, #twitter-feed, #contact, #newsletter {
   padding: 100px 0 150px;
   -webkit-box-shadow: 0 5px 0 rgba(30, 38, 44, 0.2) inset;
   -moz-box-shadow: 0 5px 0 rgba(30, 38, 44, 0.2) inset;
@@ -523,6 +543,20 @@ hr.divider-short {
 
 /* Icon Containers */
 .icon-wrap {
+  background: none repeat scroll 0 0 #FFFFFF;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 0 auto;
+  overflow: visible;
+  padding: 0;
+  text-align: center;
   width: 40px;
   height: 40px; }
 
@@ -751,6 +785,14 @@ a.instagram:hover {
   text-shadow: 0 0 8px rgba(0, 0, 0, 0.3); }
   .jumbotron h4 span {
     color: #f9bb3c; }
+
+h1, h2 {
+  color: inherit;
+  font-family: "gothamRdLight", sans-serif;
+  font-weight: bold;
+  line-height: 40px;
+  margin: 5px 0 20px;
+  text-rendering: optimizelegibility; }
 
 .jumbotron .info {
   margin: 30px auto;
@@ -1286,7 +1328,7 @@ a.instagram:hover {
   margin: 0 !important; }
 
 .nav-pills > li > a:hover, .nav-pills > li > a:focus {
-  background-color: #E27249; }
+  background-color: #f9bb3c; }
 
 .nav-pills > .active > a, .nav-pills > .active > a:hover, .nav-pills > .active > a:focus {
   background-color: #2C3840; }
@@ -1499,10 +1541,8 @@ a.instagram:hover {
 /*  -----------------------------------------------------   /*
 	RESPONSIVE
 /*  -----------------------------------------------------   /*
-
 /* 767px */
 @media (max-width: 980px) {
-
   .top-bar nav {
     top: 10px; }
 
@@ -1552,8 +1592,7 @@ a.instagram:hover {
     font-size: 46px;
     line-height: 1; } }
 @media only screen and (min-width: 960px) and (max-width: 1199px) {
-
-   .jumbotron h1 {
+  .jumbotron h1 {
     font-size: 84px !important;
     margin: 10px 0 15px; }
 
@@ -1838,15 +1877,6 @@ a.instagram:hover {
   .span12 .item-6 li .item .photo-wrap, .span6 .item-3 li .item .photo-wrap, .span12 .item-5 li .item .photo-wrap, .span6 .item-2 li .item .photo-wrap, .span12 .item-4 li .item .photo-wrap, .span6 .item-1 li .item .photo-wrap, .span12 .item-3 li .item .photo-wrap, .span12 .item-2 li .item .photo-wrap, .span12 .item-1 li .item .photo-wrap {
     height: 200px;
     padding: 20px 50px 0;
-    width: 200px; } 
-  }
-
-    .bg_text {
-    background-color: #DF4E5E;
-    padding: 25px;
-    width: 50%;
-    display:inline-block;
-  margin-left: auto ;
-  margin-right: auto ;    }
+    width: 200px; } }
 
 /*# sourceMappingURL=style.css.map */
