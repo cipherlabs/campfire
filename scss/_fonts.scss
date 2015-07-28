@@ -63,13 +63,14 @@ $typeface2: 'dkcrayon', sans-serif;
     font-style: normal; 
 }
 
-  @font-face {
+// 
+@font-face {
     font-family: 'cipherIconFont';
-    src:url('../fonts/icomoon.eot?jzi8jn');
-    src:url('../fonts/icomoon.eot?#iefixjzi8jn') format('embedded-opentype'),
-        url('../fonts/icomoon.ttf?jzi8jn') format('truetype'),
-        url('../fonts/icomoon.woff?jzi8jn') format('woff'),
-        url('../fonts/icomoon.svg?jzi8jn#icomoon') format('svg');
+    src:url('../fonts/icomoon.eot?p7vee9');
+    src:url('../fonts/icomoon.eot?#iefixp7vee9') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?p7vee9') format('truetype'),
+        url('../fonts/icomoon.woff?p7vee9') format('woff'),
+        url('../fonts/icomoon.svg?p7vee9#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -88,8 +89,11 @@ $typeface2: 'dkcrayon', sans-serif;
     -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-cipherLogoBlack:before {
+.icon-campfireB:before {
     content: "\e600";
+}
+.icon-cipherLogoBlack:before {
+    content: "\e601";
 }
 
 
