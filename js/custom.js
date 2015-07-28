@@ -63,11 +63,6 @@ $(document).ready(function () {
 		});
 	});
 	
-	// Flexslider
-	// Can also be used with $(document).ready()
-	$('.flexslider').flexslider({
-		animation: "slide"
-	});
 	
 	// Tabs //
 	$('#schedule-tabs a').click(function (e) {
