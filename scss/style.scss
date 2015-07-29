@@ -67,10 +67,10 @@ sup {
 	-webkit-transition-delay: 0.2s;
 	-moz-transition-delay: 0.2s;
 	-o-transition-delay: 0.2s;	
-	transition: background-color 0.2s ease;	    
-	-webkit-transition-delay: background-color 0.2s ease;	    
-	-moz-transition-delay:background-color 0.2s ease;	    
-	-o-transition-delay:background-color 0.2s ease;	    
+	transition: background-color ease-out 0.2s;	    
+	-webkit-transition-delay: background-color ease-out 0.2s;	    
+	-moz-transition-delay:background-color ease-out 0.2s;	    
+	-o-transition-delay:background-color ease-out 0.2s;	    
   transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0.2s;
   box-shadow: 0 2px 5px 0 $shadow;   
@@ -85,10 +85,10 @@ sup {
   text-decoration: none;
   box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
   transition-delay: 0s;
-	transition: background-color 0.2s ease;	    
-	-webkit-transition-delay: background-color 0.2s ease;	    
-	-moz-transition-delay:background-color 0.2s ease;	    
-	-o-transition-delay:background-color 0.2s ease;	   	
+	transition: background-color ease-out 0.2s;	    
+	-webkit-transition-delay: background-color ease-out 0.2s;	    
+	-moz-transition-delay:background-color ease-out 0.2s;	    
+	-o-transition-delay:background-color ease-out 0.2s;	   	
 }
 .bttn:active, .bttn.active {
 	background-color: #3d4e58;
@@ -739,13 +739,14 @@ a.instagram:hover {
 	line-height: 75px;
 	text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 	text-transform: none;
+	margin: 50px auto;
 	& span {
 		font-size: 20px;
 		line-height: 25px;
 	}
 }
 .bg_text {
-	background-color: $color3;
+	background-color: $color2;
 	padding: 25px;
 	width: 60%;
 	display:inline-block;
@@ -808,15 +809,21 @@ h1, h2 {
 .location {
 	// color: $color1;
 }
+.jumbo_cta {
+	margin: 100px auto 0;
+}
 .jumbotron a.bttn {
-	display: block;
+	display: inline-block;
 	font-weight: bold;
 	letter-spacing: 2px;
 	line-height: 30px;
-	margin: 100px auto 0;
-	width: 100px;
 	position: relative;
 	z-index: 100;
+	width: 120px;
+	margin: 0 20px;
+	&.bttn-c2 {
+		background-color: $color1;
+	}
 }
 /* Modal */
 
@@ -868,6 +875,9 @@ h1, h2 {
 }
 /* About Section */
 #about {
+	img {
+		margin-bottom: 25px; 
+	}
 	.span4 h3 {
 		font-family: $mediumfont;
 		margin: 20px auto;
@@ -1108,6 +1118,7 @@ h1, h2 {
 }
 .span12 .item-3 li {
   width: 33%;
+
 }
 .span12 .left_space {
  	margin: 50px 200px;
@@ -1176,6 +1187,7 @@ h1, h2 {
 	display: inline-block;
 	float: left;
 	margin: 0;
+	height: 500px;
 	// padding: 0 30px 0 0 !important;~~~
 }
 .carouselslider ul li .item {
@@ -1185,10 +1197,8 @@ h1, h2 {
 	background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
 	border: none;
 	border-radius: 5px;
-	margin-top: 10px;
-	margin-bottom: 10px;
 	height: 100%;
-	padding: 0 0 5px;
+	padding: 0;
 	text-align: center;
 	transition: background-color 400ms;
 	-webkit-transition:background-color 400ms;
@@ -1198,7 +1208,8 @@ h1, h2 {
 .carouselslider ul li .item:hover {
 	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.05);
   background-color: #fff;
-  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
+  // box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
+  height: 100%;
 }
 .carouselslider .text-wrap .item:hover {
 	  color: $darktext;	
@@ -1235,7 +1246,7 @@ h1, h2 {
 }
 /* text wrap */
 .text-wrap {
-	padding: 0 10px;
+	// padding: 0 10px;
 }
 .description {
 	min-height: 50px;
@@ -1503,9 +1514,23 @@ h1, h2 {
 	padding-left: 2px;
 }
 .event:hover .timeline-icon {
+  transition: box-shadow none; 
+	-webkit-transition-delay: box-shadow none ease;	    
+	-moz-transition-delay:box-shadow none ease;	    
+	-o-transition-delay:box-shadow none ease;	    
+  transition: box-shadow none cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: box-shadow 0.2s;
+}
+.event:hover .timeline-icon {
 	/*background: none repeat scroll 0 0 rgba(255, 255, 255, 0.65);*/
   transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);	
+  transition: box-shadow 0.2s; 
+	-webkit-transition-delay: box-shadow 0.2s ease;	    
+	-moz-transition-delay:box-shadow 0.2s ease;	    
+	-o-transition-delay:box-shadow 0.2s ease;	    
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: box-shadow 0.2s;  
 }
 .time-box {
 	position: absolute;
@@ -1556,9 +1581,23 @@ h1, h2 {
 	top: 25px;
 	width: 8px;
 }
+.event .event-content {
+  transition: box-shadow; 
+	-webkit-transition-delay: box-shadow ease-out;	    
+	-moz-transition-delay:box-shadow ease-out;	    
+	-o-transition-delay:box-shadow ease-out;	    
+  transition: box-shadow none cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: box-shadow none;
+}
 .event:hover .event-content {
  	box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.26);
-  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow cubic-bezier(0.4, 0, 0.2, 1) 0.2s;
+  transition: box-shadow 0.2s; 
+	-webkit-transition-delay: box-shadow ease-out 0.2s;	    
+	-moz-transition-delay:box-shadow ease-out 0.2s;	    
+	-o-transition-delay:box-shadow ease-out 0.2s;	    
+  transition: box-shadow cubic-bezier(0.4, 0, 0.2, 1) 0.2s;
+  transition-delay: box-shadow 0.2s;  
 }
 .event-title h3 {
 	font-size: 22px;
@@ -1632,7 +1671,10 @@ h1, h2 {
 
   .jumbotron h3 {
     font-size: 36px;
-    line-height: 1; } }
+    line-height: 1; } 
+  .jumbotron h4 {
+    font-size: 28px;
+    line-height: 1; } }    
 @media only screen and (min-width: 960px) and (max-width: 1199px) {
 
    .jumbotron h1 {
@@ -1641,7 +1683,13 @@ h1, h2 {
 
   .jumbotron h3 {
     font-size: 32px !important;
-    line-height: 1; } }
+    line-height: 1; }
+
+  .jumbotron h4 {
+    font-size: 24px;
+    line-height: 1; }
+
+  }
 @media only screen and (min-width: 960px) and (max-width: 1025px) {
   .carouselslider ul {
     margin-left: -20px !important; }
@@ -1750,6 +1798,9 @@ h1, h2 {
   .jumbotron h3 {
     font-size: 28px;
     line-height: 1; }
+  .jumbotron h4 {
+    font-size: 20px;
+    line-height: 1; }    
 
   .span12 .carouselslider {
     width: 724px !important; }
@@ -1875,6 +1926,10 @@ h1, h2 {
   .jumbotron h3 {
     font-size: 24px;
     line-height: 1; }
+
+  .jumbotron h4 {
+    font-size: 16px;
+    line-height: 1; }    
 
   .hero-unit > h1 {
     font-size: 50px;
