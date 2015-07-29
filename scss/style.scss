@@ -813,8 +813,8 @@ h1, h2 {
 	font-weight: bold;
 	letter-spacing: 2px;
 	line-height: 30px;
-	margin: 20px auto 0;
-	width: 170px;
+	margin: 100px auto 0;
+	width: 70px;
 	position: relative;
 	z-index: 100;
 }
@@ -1895,6 +1895,9 @@ h1, h2 {
     padding: 20px 50px 0;
     width: 300px; } }
 @media only screen and (max-width: 459px) {
+	.jumbotron a.bttn {
+		margin: 50px auto 0;
+	}	
   .navbar .bttn-navbar {
     margin: 18px 0 0 !important; }
 
