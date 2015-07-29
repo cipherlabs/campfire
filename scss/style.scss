@@ -1393,7 +1393,7 @@ h1, h2 {
 	margin-top: 15px;
 }
 .timeline-icon {
-	background: none repeat scroll 0 0 rgba(72, 163, 166, 0.4);
+	background: none repeat scroll $color3;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
@@ -1446,7 +1446,9 @@ h1, h2 {
 }
 .event:hover .timeline-icon {
 	/*background: none repeat scroll 0 0 rgba(255, 255, 255, 0.65);*/
-	background: #2C3840;
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0.2s;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 1);	
 }
 .time-box {
 	position: absolute;
