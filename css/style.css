@@ -1973,6 +1973,7 @@ h1, h2 {
     padding-top: 120px !important; }
 
   .jumbotron h1 {
+    font-size: 30px;
     margin: 10px 0; }
 
   .jumbotron h3 {
