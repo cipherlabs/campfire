@@ -1506,7 +1506,6 @@ h1, h2 {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
   border-radius: 10px;
-  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.26);
   padding: 1px 16px;
   width: 100%;
   /*width: -moz-calc(100% - 30px);/* Firefox */
@@ -1522,6 +1521,11 @@ h1, h2 {
   position: absolute;
   top: 25px;
   width: 8px; }
+
+.event:hover .event-content {
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.26);
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0.2s; }
 
 .event-title h3 {
   font-size: 22px;
