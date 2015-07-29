@@ -902,7 +902,7 @@ h1, h2 {
 #about p {
   font-size: 18px;
   max-width: 75%;
-  margin: 0 auto 50px; }
+  text-align: justify; }
 
 /* Register Section */
 #countdown div {
@@ -1863,7 +1863,10 @@ h1, h2 {
     padding: 0 10px; }
 
   .event-items, .news-items {
-    margin: 0 10px; } }
+    margin: 0 10px; }
+
+  #about p {
+    margin: 0 auto 50px; } }
 /* 480px */
 @media (max-width: 480px) {
   .jumbotron {
