@@ -354,7 +354,7 @@ nav select {
   padding: 60px 0; }
 
 #speakers {
-  background: #df4e5e; }
+  background: #31bda5; }
 
 #schedule {
   background: #E7EBED; }
@@ -1200,7 +1200,11 @@ h1, h2 {
   -o-transition: background-color 400ms; }
 
 .carouselslider ul li .item:hover {
-  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.05); }
+  background-color: #fff;
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24); }
+
+.carouselslider .text-wrap .item:hover {
+  color: #002b36; }
 
 .carouselslider ul li .item:hover {
   /*background:rgba(0, 0, 0, 0.02);*/ }
