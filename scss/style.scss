@@ -750,8 +750,7 @@ a.instagram:hover {
 	padding: 25px;
 	width: 60%;
 	display:inline-block;
-	margin-left: auto ;
-	margin-right: auto ;    
+	margin: 0 auto;  
 	transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 	transition-delay: 0.2s;
 	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
@@ -1910,7 +1909,9 @@ h1, h2 {
 			margin: 0 auto 50px;		
 		}
 	}
-
+	.bg_text {
+		width: 80%;
+	}
 
   }    
 /* 480px */
