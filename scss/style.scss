@@ -1937,6 +1937,14 @@ h1, h2 {
 
   .hero-unit > h2 {
     font-size: 45px; }
+	.jumbotron a.bttn {
+		&.bttn-c2 {
+			display: none;
+		}
+	}
+	.jumbo_cta {
+		margin-top: 0;
+	}    
 
   .carouselslider {
     margin: 0 auto;
