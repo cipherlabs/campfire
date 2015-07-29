@@ -331,6 +331,9 @@ nav select {
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
 	box-shadow: none;
+	p {
+		margin: 0 auto 50px;
+	}
 }
 #sponsors {
 	background: #E7EBED;
@@ -864,7 +867,7 @@ h1, h2 {
 #about p {
 	font-size: 18px;
 	max-width: 75%;
-	margin: 0 auto;
+	margin: 0 auto 50px;
 }
 
 
