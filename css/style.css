@@ -409,7 +409,7 @@ footer img {
   margin: 10px 0 15px; }
 
 .footer_logo img {
-  width: 50%;
+  width: 500px;
   margin: 100px auto;
   display: block; }
 
@@ -792,11 +792,6 @@ a.instagram:hover {
   transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0.2s;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26); }
-  .bg_text .icon-cipherLogoBlack {
-    color: white; }
-  .bg_text.sub_text {
-    background-color: none;
-    width: 70%; }
 
 .jumbotron h2 {
   font-size: 60px;
@@ -1917,7 +1912,12 @@ h1, h2 {
     margin: 0 auto 50px; }
 
   .bg_text {
-    width: 80%; } }
+    width: 80%; }
+
+  .footer_logo img {
+    width: 200px;
+    margin: 100px auto;
+    display: block; } }
 /* 480px */
 @media (max-width: 480px) {
   .jumbotron {
