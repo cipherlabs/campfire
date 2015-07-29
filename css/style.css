@@ -549,7 +549,7 @@ hr.divider-short {
 
 /* Icon Containers */
 .icon-wrap {
-  background: none repeat scroll 0 0 #FFFFFF;
+  background: none repeat scroll 0 0 #f9bb3c;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -567,7 +567,7 @@ hr.divider-short {
   height: 40px; }
 
 .icon-wrap.white {
-  background: #FFFFFF; }
+  background: #f9bb3c; }
 
 .icon-wrap.color1 {
   background: #31bda5; }
@@ -656,7 +656,6 @@ a.icon-wrap.small {
 
 /* Social Icons */
 .social a.icon-wrap i {
-  color: #85959e;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
