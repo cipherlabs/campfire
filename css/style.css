@@ -521,6 +521,8 @@ hr.divider-short {
   letter-spacing: 0;
   line-height: 1;
   margin: 0 0 75px; }
+  .hero-unit > h1.no_space, .hero-unit > h2.no_space, .hero-unit > h3.no_space {
+    margin: 0 0 25px; }
 
 .hero-unit > h2 {
   color: inherit;
@@ -817,7 +819,7 @@ a.instagram:hover {
 
 h1, h2 {
   color: inherit;
-  font-family: "gothamRdLight", sans-serif;
+  font-family: "gothamRdBook", sans-serif, sans-serif;
   font-weight: bold;
   line-height: 40px;
   margin: 5px 0 20px;
@@ -895,6 +897,8 @@ h1, h2 {
   text-align: center; }
 
 /* About Section */
+#about .span4 h3 {
+  font-family: "gothamRdMedium", sans-serif; }
 #about p {
   font-size: 18px;
   max-width: 75%;
