@@ -1536,7 +1536,8 @@ h1, h2 {
 	color: #FFFFFF;
 	font-size: 25px;
 	line-height: 28px;
-	padding-left: 2px;
+	text-align: center;
+	display: block;
 }
 .event:hover .timeline-icon {
   transition: box-shadow none; 
