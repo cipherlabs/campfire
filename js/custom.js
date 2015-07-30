@@ -170,6 +170,7 @@ $(document).ready(function () {
 		'mapTypeControl': false,
 		'navigationControl': false,
 		'streetViewControl': false,
+		'scrollwheel':false,
 		'styles': [{
 			stylers: [{
 				gamma: 0.60
@@ -200,13 +201,13 @@ $(document).ready(function () {
 			'id': 'marker-1',
 			'position': '43.685100, -79.759558',
 			'bounds': false,
-			'icon': image
+			// 'scrollwheel': false,
+			'icon': image						
 		}).click(function () {
 			$('#map_canvas').gmap('openInfoWindow', {
-				'content': '<h4>Eventify</h4><p><strong>Downtown Conference Center</strong><br>Columbus Ave. New York, NY 10019 </p>'
+				'content': '<h4>campfire</h4><p><strong>brampton city hall</strong><br>2 wellington street west, brampton, on</p>'
 			}, this);
 		});
-	});
-	
+	});	
 	// end		
 })
