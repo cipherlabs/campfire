@@ -1422,11 +1422,9 @@ h1, h2 {
   cursor: pointer; }
 
 .toggle-item-title {
-  background: url(../images/icons/toggle.png) scroll no-repeat right 5px transparent;
   padding: 0 32px 0 0; }
 
 .toggle-item-title.event-title.ui-state-active {
-  background: url(../images/icons/toggle-close.png) scroll no-repeat right 5px transparent;
   padding: 0 32px 0 0; }
 
 /* Modal */
