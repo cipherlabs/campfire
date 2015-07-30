@@ -336,7 +336,7 @@ nav select {
   margin: 0 auto;
   padding: 0; }
 
-#about, #register, #speakers, #schedule, #workshops, #venue, #news, #twitter-feed, #contact, #newsletter {
+#about, #speakers, #schedule, #workshops, #venue, #news, #twitter-feed, #contact, #newsletter {
   padding: 100px 0 150px;
   -webkit-box-shadow: 0 5px 0 rgba(30, 38, 44, 0.2) inset;
   -moz-box-shadow: 0 5px 0 rgba(30, 38, 44, 0.2) inset;
@@ -357,7 +357,7 @@ nav select {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding: 60px 0; }
+  padding: 150px 0; }
 
 #speakers {
   background: #31bda5; }
@@ -978,7 +978,7 @@ h1, h2 {
   width: auto; }
 
 .register-title {
-  margin: 25px auto; }
+  margin: 50px auto; }
 
 /* Schedule Section */
 .schedule-download {
