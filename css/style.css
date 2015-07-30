@@ -62,7 +62,8 @@ body {
   font-size: 15px;
   line-height: 24px;
   color: #002b36 !important;
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  overflow-x: hidden; }
 
 a {
   color: #31bda5;
