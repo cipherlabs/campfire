@@ -918,6 +918,8 @@ h1, h2 {
   margin: 0 auto;
   line-height: 32px;
   padding: 10px; }
+  #about p span {
+    color: #31bda5; }
 
 /* Register Section */
 #countdown div {

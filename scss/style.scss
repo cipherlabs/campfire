@@ -892,6 +892,9 @@ h1, h2 {
 		margin: 0 auto;
 		line-height: 32px;
 		padding: 10px;
+		span {
+			color: $color2;
+		}
 	}
 }
 
