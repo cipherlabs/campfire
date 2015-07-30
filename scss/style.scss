@@ -295,11 +295,17 @@ nav select {
   margin: 0 auto;
   padding: 0; }
 
-#about, #register, #speakers, #schedule, #workshops, #venue, #sponsors, #news, #twitter-feed, #contact, #newsletter {
+#about, #register, #speakers, #schedule, #workshops, #venue, #news, #twitter-feed, #contact, #newsletter {
 	padding: 100px 0 150px;
 	-webkit-box-shadow: 0 5px 0 rgba(30, 38, 44, 0.2) inset;
 	-moz-box-shadow: 0 5px 0 rgba(30, 38, 44, 0.2) inset;
 	box-shadow: 0 5px 0 rgba(30, 38, 44, 0.2) inset;
+}
+#sponsors {
+	padding: 100px 0 100px;
+	-webkit-box-shadow: 0 5px 0 rgba(30, 38, 44, 0.2) inset;
+	-moz-box-shadow: 0 5px 0 rgba(30, 38, 44, 0.2) inset;
+	box-shadow: 0 5px 0 rgba(30, 38, 44, 0.2) inset;	
 }
 #about {
 	background: none repeat scroll 0 0 #FFFFFF;
@@ -483,6 +489,9 @@ hr.divider-short {
 	margin: 0 0 75px;
 	&.no_space {
 		margin: 0 0 25px;
+	}
+	&.top_space {
+		margin: 50px auto;		
 	}
 }
 .hero-unit > h2 {
@@ -1038,6 +1047,10 @@ h1, h2 {
 	-webkit-transition: opacity 200ms ease;
 	-o-transition: opacity 200ms ease;
 	transition: opacity 200ms ease;
+}
+.sponsor_cta {
+	border: 3px dashed $color2;
+	margin-top: 50px;
 }
 /* News Section */
 .news-items {
