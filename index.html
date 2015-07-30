@@ -108,7 +108,7 @@
       <div class="span4 text-center">
         <div class="icon-wrap large"><img class="icon" src="images/hero.png"></div>
         <h3>launch learning</h3>
-        <p>all our eggs are in one basket. all our savings on "20 red". <span>we've assembled the finest heroes</span> from all corners of the gta. do they come in peace? yes. they are here to liberate our minds from ignorance, show us the error of our ways, and set us on paths of...um... heroism.</p>
+        <p>all our eggs are in one basket. all our savings on "20 red". <span>we've assembled the finest heroes</span> from all corners of the gta. do they come in peace? yes. they are here to liberate our minds from ignorance, show us the error of our ways, and set us on paths of ...um... heroism.</p>
       </div>
       <div class="span4 text-center">
         <div class="icon-wrap large"><img class="icon" src="images/pacman.png"></div>
@@ -256,6 +256,7 @@
         </ul>
         <!-- end tabs --> 
       </div>
+   
       <!-- end span12 -->
       <div class="tab-content">
         <div class="tab-pane wo-tab-pane fade" id="dayone"> 
@@ -263,7 +264,7 @@
           <div class="span4">
             <h2>pre-game</h2>
             <p>let's get turnt with some pre-game facebook-chat action. ...yes, this is 2015 and "turnt" has a variety of meanings. </p>
-            <div class="schedule-download"><a href="#" class="bttn"><i class="iconf-acrobat"></i>
+            <div class="schedule-download"><a data-toggle="modal" data-target="#modal-schedule"><i class="iconf-acrobat"></i>             
               <p>Full schedule</p>
               </a> </div>
           </div>
@@ -506,11 +507,19 @@
           <!-- DAY TWO -->
           <div class="span4">
             <h2>the epic-throwdown</h2>
-            <p><strong>august 20</strong>: the main event, the big cheese, the epic showdown. this is the day that we'll be putting all our eggs in one basket, with the finest heroes from all over the gta to save us from ignorance and liberate our souls from servitude. yes, these heroes will show us the error of our ways, and set us on paths of...um... heroism.</p>
-            <div class="schedule-download"><a href="#" class="bttn"><i class="iconf-acrobat"></i>
+            <p class="day_description"><strong>august 20</strong>: the main event, the big cheese, the epic showdown. we've put all our eggs are in one basket. all our savings on "20 red" by <span>assembling the finest heroes</span> from all corners of the gta. do they come in peace? yes. they are here to liberate our minds from ignorance, show us the error of our ways, and set us on paths of  ...um... heroism.</p>
+            <div class="schedule-download bttn"><a href="#" data-toggle="modal" data-target="#modal-schedule"><i class="iconf-acrobat"></i>
               <p>Full schedule</p>
               </a> </div>
           </div>
+<div class="modal hide fade" id="modal-schedule">
+  <div class="modal-body text-center">
+  <img src="images/spongebob.png"/>
+  <br></br>
+  <br></br>
+  <h1>coming soon -- promise!</h1>
+  </div>
+</div>          
           <!-- end span4 -->
           <div class="span8"> 
             <!-- TIMELINE -->
@@ -867,13 +876,15 @@
       </a>
       <div class="span12 hero-unit text-center">
         <h2>subscribe to our mailing list</h2>
-          <a class="bttn typeform-share" href="https://cipher.typeform.com/to/v23sNI" data-mode="2" target="_blank">get sweet stuff in yo' inbox</a>            
+          <a class="bttn typeform-share" href="https://cipher.typeform.com/to/v23sNI" data-mode="2" target="_blank">get sweet <span class="icon-cipherLogoBlack"></span> &nbsp;&nbsp;&nbsp;&nbsp; in yo' inbox</a>            
           <div class="social"> <a href="#" target="_blank" title="Facebook" class="icon-wrap small facebook"> <i class="iconf-facebook"></i> </a> <a href="#" target="_blank" title="Twitter" class="icon-wrap small twitter"> <i class="iconf-twitter"></i> </a> <a href="https://www.linkedin.com/company/project-cipher" target="_blank" title="LinkedIn" class="icon-wrap small linkedin"> <i class="iconf-linkedin"></i> </a></div>          
       </div>    
     <!-- end row --> 
   </div>
   <!-- end container --> 
 </footer>
+
+
 <!-- end Document --> 
 <!-- javascripts --> 
     <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}id=id+'_';if(!gi.call(d,id)){qs=ce.call(d,'link');qs.rel='stylesheet';qs.id=id;qs.href=b+'share-button.css';s=gt.call(d,'head')[0];s.appendChild(qs,s)}})()</script>    

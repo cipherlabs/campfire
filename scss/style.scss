@@ -78,6 +78,11 @@ sup {
 	-moz-box-shadow: 0 2px 5px 0 $shadow;
 	box-shadow: 0 2px 5px 0 $shadow;    
   cursor: pointer;
+	span {
+		font-size: 40px;
+		line-height: 40px;
+		margin-top: -10px;
+	}
 }
 .bttn:hover, .bttn:focus {
   background-color: $colorCTAdark;
@@ -323,6 +328,11 @@ nav select {
 }
 #schedule {
 	background: #E7EBED;
+	.day_description {
+		font-size: 24px;
+		line-height: 35px;
+		padding-right: 40px;
+	}
 }
 #workshops {
 	background: $color1;
@@ -965,6 +975,7 @@ h1, h2 {
 }
 .schedule-download a {
 	padding: 15px;
+	color: white;
 }
 .schedule-download p {
 	display: inline-block;

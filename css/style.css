@@ -127,6 +127,10 @@ sup {
   -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
   cursor: pointer; }
+  .bttn span {
+    font-size: 40px;
+    line-height: 40px;
+    margin-top: -10px; }
 
 .bttn:hover, .bttn:focus {
   background-color: #CB293C;
@@ -364,6 +368,10 @@ nav select {
 
 #schedule {
   background: #E7EBED; }
+  #schedule .day_description {
+    font-size: 24px;
+    line-height: 35px;
+    padding-right: 40px; }
 
 #workshops {
   background: #f9bb3c; }
@@ -987,7 +995,8 @@ h1, h2 {
   margin: 20px 0; }
 
 .schedule-download a {
-  padding: 15px; }
+  padding: 15px;
+  color: white; }
 
 .schedule-download p {
   display: inline-block;
