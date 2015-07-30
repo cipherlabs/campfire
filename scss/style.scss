@@ -1932,6 +1932,15 @@ h1, h2 {
   }    
 /* 480px */
 @media (max-width: 480px) {
+#intro {
+  background: url(../images/backgrounds/spongebob.gif) center center no-repeat scroll;	
+}
+#register {
+	background: /*#7bc1a1*/url(../images/backgrounds/intro2.jpg) center center no-repeat scroll;
+}
+#venue {
+	background: url(../images/backgrounds/intro3.jpg) center center no-repeat scroll;	
+}	
   .jumbotron {
     height: 375px;
     padding-top: 165px; }
