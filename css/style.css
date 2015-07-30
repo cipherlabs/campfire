@@ -848,6 +848,8 @@ h1, h2 {
   margin: 0 20px; }
   .jumbotron a.bttn.bttn-c2 {
     background-color: #f9bb3c; }
+    .jumbotron a.bttn.bttn-c2:hover {
+      background-color: #f98531; }
 
 /* Modal */
 .price-table {
