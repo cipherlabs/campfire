@@ -1937,13 +1937,16 @@ h1, h2 {
 /* 480px */
 @media (max-width: 480px) {
   #intro {
-    background: url(../images/backgrounds/spongebob.gif) center center no-repeat scroll; }
+    background: url(../images/backgrounds/spongebob.gif) scroll;
+    background-size: cover; }
 
   #register {
-    background: url(../images/backgrounds/intro2.jpg) center center no-repeat scroll; }
+    background: url(../images/backgrounds/intro2.jpg) scroll;
+    background-size: cover; }
 
   #venue {
-    background: url(../images/backgrounds/intro3.jpg) center center no-repeat scroll; }
+    background: url(../images/backgrounds/intro3.jpg) scroll;
+    background-size: cover; }
 
   .jumbotron {
     height: 375px;
