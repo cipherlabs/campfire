@@ -374,16 +374,89 @@ nav select {
 	background: #4C5D67;
 	padding: 0;
 }
-footer {
-	background-color: #2C3840;
-	color: #E1E4E5;
-	font-size: 14px;
-	font-weight: 100;
-	height: 100%;
-	padding: 20px 0;
+
+#footer {
+	background: #2C3840;
+	h2 {
+		color: $grey50;
+	}
 }
-footer img {
-	margin: 10px 0 15px;
+
+.global-footer {
+   background-color:#2C3840;
+   color: #dedede;
+   text-align: center;
+   margin-top: -75px;
+   overflow:hidden;
+   padding: 50px;
+
+   #footernav {
+      background-color:#2C3840;
+      padding-top:50px;
+   }
+
+    .subnavtitle{
+      font-family: $typeface;
+      color:$color1;
+      text-align:left;
+    }
+
+
+   li{
+      list-style:none;
+      text-align:left;
+      color:grey;
+      }   
+   
+   a{
+      color:#999;
+      font-size:16px;
+   }
+
+   a:hover{
+      color:#fff;
+      text-decoration:none;
+   }
+
+   .copyright {
+   	h5 {
+			color: #999;
+   	}
+   }
+
+   p {
+      font-family: 'ProximaNova', sans-serif;
+      font-size: 22px;
+   }
+
+   .twitter-hover {
+   background-image: url(http://brainstationimg.s3.amazonaws.com/twitter-hover.png);
+   }
+
+   .facebook-hover {
+   background-image: url(http://brainstationimg.s3.amazonaws.com/facebook-hover.png);
+   }
+   
+   .linkedin-hover{
+   background-image: url(http://brainstationimg.s3.amazonaws.com/linkedin-hover.png);
+   }
+   
+   .social-slide {
+   height: 48px;
+   width:48px;
+   display:inline-block;
+   /*margin:10px;*/
+   -webkit-transition: all ease 0.3s;
+   -moz-transition: all ease 0.3s;
+   -o-transition: all ease 0.3s;
+   -ms-transition: all ease 0.3s;
+   transition: all ease 0.3s;
+   }
+
+   .social-slide:hover{
+   background-position: 0px -48px;
+   /*box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);*/
+   }
 }
 .footer_logo img {
 	width: 500px;
@@ -425,7 +498,6 @@ footer img {
 hr {
 	margin: 20px auto;
 	border: 0;
-	border-top: 3px solid #5DBEB2;
 	border-bottom: none;
 }
 hr.divider-short {
@@ -750,7 +822,7 @@ a.instagram:hover {
 	padding-top: 20%;
 	height: 400px;
 }
-.jumbotron > div.span12 {
+.jumbotron > div {
 	display: inline-block;
 	width: 100%;
 	position: relative;
@@ -1945,6 +2017,14 @@ h1, h2 {
 		margin: 100px auto;
 		display: block;
 	}
+    .footer-col{
+      	display: block;
+      	width: 300px;
+      	margin: 0 auto;
+      	text-align: center;      
+      ul {
+      }
+    }	
   }    
 /* 480px */
 @media (max-width: 480px) {

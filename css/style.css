@@ -412,16 +412,59 @@ nav select {
   background: #4C5D67;
   padding: 0; }
 
-footer {
-  background-color: #2C3840;
-  color: #E1E4E5;
-  font-size: 14px;
-  font-weight: 100;
-  height: 100%;
-  padding: 20px 0; }
+#footer {
+  background: #2C3840; }
+  #footer h2 {
+    color: #FAFAFA; }
 
-footer img {
-  margin: 10px 0 15px; }
+.global-footer {
+  background-color: #2C3840;
+  color: #dedede;
+  text-align: center;
+  margin-top: -75px;
+  overflow: hidden;
+  padding: 50px; }
+  .global-footer #footernav {
+    background-color: #2C3840;
+    padding-top: 50px; }
+  .global-footer .subnavtitle {
+    font-family: "gothamRdBold", sans-serif;
+    color: #f9bb3c;
+    text-align: left; }
+  .global-footer li {
+    list-style: none;
+    text-align: left;
+    color: grey; }
+  .global-footer a {
+    color: #999;
+    font-size: 16px; }
+  .global-footer a:hover {
+    color: #fff;
+    text-decoration: none; }
+  .global-footer .copyright h5 {
+    color: #999; }
+  .global-footer p {
+    font-family: 'ProximaNova', sans-serif;
+    font-size: 22px; }
+  .global-footer .twitter-hover {
+    background-image: url(http://brainstationimg.s3.amazonaws.com/twitter-hover.png); }
+  .global-footer .facebook-hover {
+    background-image: url(http://brainstationimg.s3.amazonaws.com/facebook-hover.png); }
+  .global-footer .linkedin-hover {
+    background-image: url(http://brainstationimg.s3.amazonaws.com/linkedin-hover.png); }
+  .global-footer .social-slide {
+    height: 48px;
+    width: 48px;
+    display: inline-block;
+    /*margin:10px;*/
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+    transition: all ease 0.3s; }
+  .global-footer .social-slide:hover {
+    background-position: 0px -48px;
+    /*box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);*/ }
 
 .footer_logo img {
   width: 500px;
@@ -463,7 +506,6 @@ footer img {
 hr {
   margin: 20px auto;
   border: 0;
-  border-top: 3px solid #5DBEB2;
   border-bottom: none; }
 
 hr.divider-short {
@@ -786,7 +828,7 @@ a.instagram:hover {
   padding-top: 20%;
   height: 400px; }
 
-.jumbotron > div.span12 {
+.jumbotron > div {
   display: inline-block;
   width: 100%;
   position: relative;
@@ -1945,7 +1987,13 @@ h1, h2 {
   .footer_logo img {
     width: 200px;
     margin: 100px auto;
-    display: block; } }
+    display: block; }
+
+  .footer-col {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center; } }
 /* 480px */
 @media (max-width: 480px) {
   #intro {
