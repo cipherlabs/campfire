@@ -160,7 +160,6 @@ input[type="submit"], #submit {
 /*  -----------------------------------------------------   /*
 	TOP BAR & NAVIGATION
 /*  -----------------------------------------------------   /*
-
 /* Top Bar */
 .top-bar {
 	position: fixed;
@@ -284,10 +283,18 @@ input[type="submit"], #submit {
 nav select {
 	display: none;
 }
+.top-bar .navbar .nav > li:last-child > a {
+background: #df4e5e; margin-left: 20px;}
+.top-bar .navbar .nav > li > a:hover, .top-bar.alt .navbar .nav > li > a:hover {
+ color: #31bda5; }
+#mainnav > li:nth-child(6) a {
+background-color: #df4e5e;
+color: white; }
+#mainnav > li:nth-child(6) a:hover {
+  background-color: #CB293C; }
 /*  -----------------------------------------------------   /*
 	SECTION BACKGROUNDS
 /*  -----------------------------------------------------   /*
-
 /* Sections */
 #intro {
   background: url(../images/backgrounds/spongebob.gif) center center no-repeat fixed;
@@ -466,7 +473,6 @@ nav select {
 /*  -----------------------------------------------------   /*
 	DIVIDERS, HEADERS & SUBHEADERS
 /*  -----------------------------------------------------   /*
-
 /* Dividers */
 .divider {
 	border-top: 3px solid #5DBEB2;
@@ -558,7 +564,6 @@ hr.divider-short {
 /*  -----------------------------------------------------   /*
 	BOXES
 /*  -----------------------------------------------------   /*
-
 /* Hero Unit */
 .hero-unit {
 	padding: 0px;
@@ -602,7 +607,6 @@ hr.divider-short {
 /*  -----------------------------------------------------   /*
 	COLORS, IMAGE & ICONS CONTAINERS
 /*  -----------------------------------------------------   /*
-
 /* Colors */
 .white {
 	color: #ffffff;
@@ -808,7 +812,6 @@ a.instagram:hover {
 /*  -----------------------------------------------------   /*
 	SECTION CUSTOM STYLES
 /*  -----------------------------------------------------   /*
-
 /* Intro Page Jumbotron */
 .texture-overlay {
     position: absolute;
@@ -1199,7 +1202,6 @@ h1, h2 {
 /*  -----------------------------------------------------   /*
 	CAROUSEL, TABS, TOGGLE & MODAL
 /*  -----------------------------------------------------   /*
-
 /* Carousel */
 .carousel-wrap li {
 	list-style: none outside none;
@@ -1517,7 +1519,6 @@ h1, h2 {
 /*  -----------------------------------------------------   /*
 	TIMELINE
 /*  -----------------------------------------------------   /*
-
 /* */
 .main-timeline {
 	margin-top: 40px;
