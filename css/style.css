@@ -374,7 +374,7 @@ nav select {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding: 150px 0; }
+  padding: 70px 0; }
 
 #speakers {
   background: #31bda5; }
@@ -985,7 +985,12 @@ h1, h2 {
 
 /* Register Section */
 #countdown div {
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  padding-top: 5%; }
+
+.countdown {
+  position: relative;
+  z-index: 100; }
 
 #countdown .digit-container {
   -webkit-box-sizing: border-box;
@@ -1037,7 +1042,11 @@ h1, h2 {
   width: auto; }
 
 .register-title {
-  margin: 50px auto; }
+  margin: 50px auto;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 60%;
+  background: #31bda5; }
 
 /* Schedule Section */
 .schedule-download {
